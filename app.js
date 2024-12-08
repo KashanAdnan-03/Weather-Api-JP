@@ -40,6 +40,11 @@ formData.addEventListener("submit", (e) => {
             `
         // }, 1000);
     }).catch((err) => {
+        showWeather.innerHTML = `
+            <div class="d-flex align-items-center justify-content-center  flex-column w-25 border p-4 rounded-3">
+          <h1>Not Found</h1>
+            </div>
+            `
         console.log(err.message)
     })
 
