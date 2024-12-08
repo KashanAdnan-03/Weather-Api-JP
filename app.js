@@ -28,7 +28,7 @@ formData.addEventListener("submit", (e) => {
         heightKam.style.transition = "1.5s"
         // setInterval(() => {
 
-            showWeather.innerHTML = `
+        showWeather.innerHTML = `
             <div class="d-flex align-items-center justify-content-center  flex-column w-25 border p-4 rounded-3">
             <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" width="120" />
             <h1>${data.weather[0].main}</h1>
